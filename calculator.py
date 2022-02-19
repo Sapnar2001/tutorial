@@ -6,6 +6,7 @@ print("2 subtraction")
 print("3 multiplication")
 print(" 4 division")
 print(" 5 modulus")
+print("6 exponent")
 choice=input("enter your choice:")
 n1=int(input("enter first choice"))
 n2=int(input("enter second choice"))
@@ -24,7 +25,9 @@ elif choice=="5":
     if n2=="0":
         print("number can't be divided by 0")
     else:
-        print(n1, "%" ,n2,"=", (n1%n2))
+ print(n1, "%" ,n2,"=", (n1%n2))
+elif choice =="6":
+    print(n1, "^" ,n2,"=", (n1**n2))
 else:
     print("invalid input")
     
