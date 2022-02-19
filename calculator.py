@@ -1,4 +1,4 @@
-name=input("enter your name")
+name=input(" please enter your name")
 print(f" hello {name}")
 print("enter your choice")
 print("1 addition")
